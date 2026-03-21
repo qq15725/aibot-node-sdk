@@ -3,6 +3,7 @@
  */
 
 export type { Logger } from './common';
+export { WSAuthFailureError, WSReconnectExhaustedError } from './common';
 export type { WSClientOptions } from './config';
 export {
   MessageType,

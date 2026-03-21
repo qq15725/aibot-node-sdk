@@ -85,4 +85,6 @@ export {
   type EventMessage,
   type EventMessageWith,
   type Logger,
+  WSAuthFailureError,
+  WSReconnectExhaustedError,
 } from './types';
